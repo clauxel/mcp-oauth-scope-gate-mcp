@@ -1,0 +1,27 @@
+{
+  "name": "com.clauxel.mcpoauthscopegate/mcpoauthscopegate-mcp",
+  "title": "MCP OAuth Scope Gate",
+  "description": "Paid remote MCP for OAuth scope risk inspection, approval routing, consent receipts, server policy validation, and scope audit exports.",
+  "version": "1.0.0",
+  "websiteUrl": "https://mcpoauthscopegate.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/mcp-oauth-scope-gate-mcp",
+  "serverCardUrl": "https://mcpoauthscopegate.clauxel.com/server-card.json",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpoauthscopegate.clauxel.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token from the product website."
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "oauth",
+    "scope-approval",
+    "mcp-security",
+    "remote-mcp"
+  ]
+}
