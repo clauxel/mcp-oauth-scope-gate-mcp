@@ -1,0 +1,12 @@
+# MCP OAuth Scope Gate
+
+Paid remote MCP for OAuth scope risk inspection, approval routing, consent receipts, server policy validation, and scope audit exports.
+
+Website: https://mcpoauthscopegate.clauxel.com/
+MCP endpoint: https://mcpoauthscopegate.clauxel.com/mcp
+Server card: https://mcpoauthscopegate.clauxel.com/server-card.json
+Docs: https://github.com/clauxel/mcp-oauth-scope-gate-mcp
+
+Use case: Review OAuth scopes for remote MCP servers before tokens are granted.
+Authentication: Bearer token required for production use.
+Tools: inspect_oauth_scope_risk, request_scope_approval, issue_consent_receipt, validate_server_scope_policy, export_scope_audit
